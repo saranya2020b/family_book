@@ -1,0 +1,26 @@
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2016/10/18/19/27/flower-1751161_960_720.png");
+   text-align: center;
+}
+
+p{
+    font-family: 'Fantasy';
+    color: rgb(21, 3, 54); 
+    font-size: 42;
+}
+
+h1{
+    font-family: 'Fantasy', monospace;
+    color: rgb(126, 13, 13);
+    font-size:60;
+}
+img{
+    width:300;
+    border-radius:150px;
+    height: 400px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(249, 72, 255);
+    margin-top: 50px;
+    margin-bottom:40;
+}
