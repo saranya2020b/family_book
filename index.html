@@ -1,0 +1,50 @@
+<html>
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> My Family Book</title>
+
+</head>
+
+<body>
+
+<h1>My Family Book</h1>
+
+<img id="images"src="https://cdn4.vectorstock.com/i/1000x1000/83/43/happy-family-icon-multicolored-in-simple-figures-vector-19888343.jpg">
+
+<div>
+
+<button type="button" onclick="NEXT()">Next
+
+</button>
+
+</div>
+
+<p id="names">This is my family Book.</p>
+ 
+
+<script>
+    var names=["Hi,This is me Saranya.Nice to meet you","This is my bird maya","This is my mother and father","Thish is me and my uncle"];
+
+var images=["9eafa453-2720-4d44-bafa-097ff20ef684.jpg","my cockatoo.jpg","IMG-20210204-WA0018.jpg","IMG-20200831-WA0016.jpg",];
+
+var i =0;
+function NEXT(){
+document.getElementById("names").innerHTML=names[i];
+document.getElementById("images").src=images[i];
+i++;
+if(i>3){
+i=0;
+}
+}
+
+</script>
+
+</body>
+
+</html>
